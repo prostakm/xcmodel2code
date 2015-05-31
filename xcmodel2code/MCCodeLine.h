@@ -7,4 +7,7 @@
 
 
 @interface MCCodeLine : NSObject
+
+@property (nonatomic, readonly) NSString *toString;
+
 @end

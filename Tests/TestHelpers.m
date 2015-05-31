@@ -6,6 +6,16 @@
 #import "TestHelpers.h"
 
 
+NSAttributeDescription *createAttributeDescription(NSString *attributeName, NSAttributeType aType)
+{
+    NSAttributeDescription *attributeDescription = [[NSAttributeDescription alloc] init];
+    attributeDescription.attributeType = aType;
+    attributeDescription.name = attributeName;
+
+    return attributeDescription;
+}
+
+
 @implementation TestHelpers
 {
 

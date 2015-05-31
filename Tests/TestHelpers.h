@@ -6,14 +6,7 @@
 #import <Foundation/Foundation.h>
 #import <CoreData/CoreData.h>
 
-NSAttributeDescription *createAttributeDescription(NSString *attributeName, NSAttributeType aType)
-{
-    NSAttributeDescription *attributeDescription = [[NSAttributeDescription alloc] init];
-    attributeDescription.attributeType = aType;
-    attributeDescription.name = attributeName;
-
-    return attributeDescription;
-}
+NSAttributeDescription *createAttributeDescription(NSString *attributeName, NSAttributeType aType);
 
 
 

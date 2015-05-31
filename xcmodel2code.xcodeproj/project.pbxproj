@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C4FEB02462FA93989F0653F0 /* TestCodeEntityDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FEB904B39B3F2D6CB0BF3C /* TestCodeEntityDetail.m */; };
 		C4FEB0E4A06B2CC193574431 /* TestCodeLine.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FEBC2F920913A6774AB53F /* TestCodeLine.m */; };
 		C4FEB145065C37FFFFC2F5D7 /* MCCodeEntityDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FEBB7CE74EC97E0E527F2D /* MCCodeEntityDetail.m */; };
 		C4FEB28E9C54D3F809E298AB /* MCCodeRepresentationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FEB96A789B7F92F9CF6C95 /* MCCodeRepresentationModel.m */; };
 		C4FEB4CC4AAC9F35DFCD6C29 /* MCCodeEntityDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FEBB7CE74EC97E0E527F2D /* MCCodeEntityDetail.m */; };
+		C4FEB531C69D74A0A5A72BD6 /* TestAttributeCodeDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FEBD93726DD459F870D0BE /* TestAttributeCodeDescription.m */; };
+		C4FEB57B0A5933C30D97CD01 /* MCCodeDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FEB96C2E10BFA1936D5D39 /* MCCodeDescription.m */; };
 		C4FEB5D58108411153869D56 /* TestHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FEB56196936CB3E0056F00 /* TestHelpers.m */; };
+		C4FEB7440A17255275712475 /* TestCodeEntityDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FEB904B39B3F2D6CB0BF3C /* TestCodeEntityDetail.m */; };
+		C4FEB8530D2B84E39D023742 /* MCCodeDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FEB96C2E10BFA1936D5D39 /* MCCodeDescription.m */; };
 		C4FEB977D2EAE017409DFB63 /* MCCodeLine.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FEB98780D46D27B027C878 /* MCCodeLine.m */; };
+		C4FEB9EDCF650D3642711FF2 /* MCPropertyCodeDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FEB022CA6926D28079DE4B /* MCPropertyCodeDescription.m */; };
 		C4FEBC8BB5F548A69FA8EAC9 /* MCCodeRepresentationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FEB96A789B7F92F9CF6C95 /* MCCodeRepresentationModel.m */; };
 		C4FEBE3D3C11855ACC7C9383 /* MCCodeLine.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FEB98780D46D27B027C878 /* MCCodeLine.m */; };
+		C4FEBE55D8807F7DA9584D4A /* MCPropertyCodeDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FEB022CA6926D28079DE4B /* MCPropertyCodeDescription.m */; };
 		C4FEBF3A3843508875339969 /* TestCodeLine.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FEBC2F920913A6774AB53F /* TestCodeLine.m */; };
 		CFA873171AD2F67D0055AFFB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CFA873161AD2F67D0055AFFB /* main.m */; };
 		CFA873261AD2F6A40055AFFB /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = CFA873251AD2F6A40055AFFB /* Tests.m */; };
@@ -38,15 +43,20 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C4FEB022CA6926D28079DE4B /* MCPropertyCodeDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCPropertyCodeDescription.m; sourceTree = "<group>"; };
 		C4FEB0C9F51F4D75CA69531D /* TestHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestHelpers.h; sourceTree = "<group>"; };
+		C4FEB3B4A993F216F03C277E /* MCCodeDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCCodeDescription.h; sourceTree = "<group>"; };
 		C4FEB56196936CB3E0056F00 /* TestHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestHelpers.m; sourceTree = "<group>"; };
+		C4FEB7157F9D5A74F2079BD6 /* MCPropertyCodeDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCPropertyCodeDescription.h; sourceTree = "<group>"; };
 		C4FEB75865F59223B132BCC7 /* MCCodeLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCCodeLine.h; sourceTree = "<group>"; };
 		C4FEB8AF8BCFD92109DA63AD /* MCCodeEntityDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCCodeEntityDetail.h; sourceTree = "<group>"; };
 		C4FEB904B39B3F2D6CB0BF3C /* TestCodeEntityDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestCodeEntityDetail.m; sourceTree = "<group>"; };
 		C4FEB96A789B7F92F9CF6C95 /* MCCodeRepresentationModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCCodeRepresentationModel.m; sourceTree = "<group>"; };
+		C4FEB96C2E10BFA1936D5D39 /* MCCodeDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCCodeDescription.m; sourceTree = "<group>"; };
 		C4FEB98780D46D27B027C878 /* MCCodeLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCCodeLine.m; sourceTree = "<group>"; };
 		C4FEBB7CE74EC97E0E527F2D /* MCCodeEntityDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCCodeEntityDetail.m; sourceTree = "<group>"; };
 		C4FEBC2F920913A6774AB53F /* TestCodeLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestCodeLine.m; sourceTree = "<group>"; };
+		C4FEBD93726DD459F870D0BE /* TestAttributeCodeDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestAttributeCodeDescription.m; sourceTree = "<group>"; };
 		C4FEBF26C9605A3231AE54B9 /* MCCodeRepresentationModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCCodeRepresentationModel.h; sourceTree = "<group>"; };
 		CFA873131AD2F67D0055AFFB /* xcmodel2code */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = xcmodel2code; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFA873161AD2F67D0055AFFB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -107,6 +117,10 @@
 				C4FEB8AF8BCFD92109DA63AD /* MCCodeEntityDetail.h */,
 				C4FEB98780D46D27B027C878 /* MCCodeLine.m */,
 				C4FEB75865F59223B132BCC7 /* MCCodeLine.h */,
+				C4FEB3B4A993F216F03C277E /* MCCodeDescription.h */,
+				C4FEB96C2E10BFA1936D5D39 /* MCCodeDescription.m */,
+				C4FEB7157F9D5A74F2079BD6 /* MCPropertyCodeDescription.h */,
+				C4FEB022CA6926D28079DE4B /* MCPropertyCodeDescription.m */,
 			);
 			path = xcmodel2code;
 			sourceTree = "<group>";
@@ -121,6 +135,7 @@
 				C4FEB56196936CB3E0056F00 /* TestHelpers.m */,
 				C4FEB0C9F51F4D75CA69531D /* TestHelpers.h */,
 				C4FEBC2F920913A6774AB53F /* TestCodeLine.m */,
+				C4FEBD93726DD459F870D0BE /* TestAttributeCodeDescription.m */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -224,9 +239,10 @@
 				CFA873171AD2F67D0055AFFB /* main.m in Sources */,
 				C4FEBC8BB5F548A69FA8EAC9 /* MCCodeRepresentationModel.m in Sources */,
 				C4FEB145065C37FFFFC2F5D7 /* MCCodeEntityDetail.m in Sources */,
-				C4FEB02462FA93989F0653F0 /* TestCodeEntityDetail.m in Sources */,
 				C4FEB0E4A06B2CC193574431 /* TestCodeLine.m in Sources */,
 				C4FEBE3D3C11855ACC7C9383 /* MCCodeLine.m in Sources */,
+				C4FEB8530D2B84E39D023742 /* MCCodeDescription.m in Sources */,
+				C4FEB9EDCF650D3642711FF2 /* MCPropertyCodeDescription.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +258,10 @@
 				C4FEB5D58108411153869D56 /* TestHelpers.m in Sources */,
 				C4FEBF3A3843508875339969 /* TestCodeLine.m in Sources */,
 				C4FEB977D2EAE017409DFB63 /* MCCodeLine.m in Sources */,
+				C4FEB531C69D74A0A5A72BD6 /* TestAttributeCodeDescription.m in Sources */,
+				C4FEB57B0A5933C30D97CD01 /* MCCodeDescription.m in Sources */,
+				C4FEB7440A17255275712475 /* TestCodeEntityDetail.m in Sources */,
+				C4FEBE55D8807F7DA9584D4A /* MCPropertyCodeDescription.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
